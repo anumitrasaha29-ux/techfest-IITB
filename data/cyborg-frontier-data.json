@@ -1,0 +1,105 @@
+{
+  "inquiries": [
+    {
+      "id": "inq-seed-1",
+      "name": "Dr. Evelyn Vance",
+      "email": "e.vance@neurotech-inst.org",
+      "organization": "Apex Neurosciences Institute",
+      "tier": "Clinical Research",
+      "selectedFinish": "titanium",
+      "sensorColor": "amber",
+      "notes": "Evaluating bio-mimetic motor integration for clinical human trials.",
+      "createdAt": "2026-10-08T11:46:53.454Z"
+    }
+  ],
+  "mechPresets": [
+    {
+      "id": "preset-titan-mk1",
+      "name": "Standard Titanium Vanguard",
+      "materialPreset": "titanium",
+      "explodedPercent": 25,
+      "subsystems": {
+        "armorShell": true,
+        "gimbalRings": true,
+        "quantumCore": true,
+        "hydraulicPistons": true,
+        "coolingFins": true,
+        "particleOrbit": true
+      },
+      "wireframe": false,
+      "createdAt": "2026-10-09T11:46:53.454Z"
+    },
+    {
+      "id": "preset-stealth-core",
+      "name": "Obsidian Deep Recon",
+      "materialPreset": "obsidian",
+      "explodedPercent": 0,
+      "subsystems": {
+        "armorShell": true,
+        "gimbalRings": true,
+        "quantumCore": true,
+        "hydraulicPistons": false,
+        "coolingFins": true,
+        "particleOrbit": false
+      },
+      "wireframe": false,
+      "createdAt": "2026-10-10T11:46:53.454Z"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "Kinetic Footfall Energy Harvester",
+      "domain": "Exoskeleton Mobility",
+      "description": "Piezoelectric crystalline plates embedded inside ankle shock-absorbers that recharge auxiliary battery cells with every stride.",
+      "torque": 420,
+      "latency": 0.18,
+      "compatibility": 99,
+      "upvotes": 42,
+      "status": "Prototyped",
+      "createdAt": "2026-10-05T11:46:53.454Z",
+      "bomEstimate": "$8,400 / Unit",
+      "thermalOutput": "12W Nominal",
+      "feasibility": "98% Ready for Production"
+    },
+    {
+      "id": "c2",
+      "title": "Retinal Micro-OLED HUD Matrix",
+      "domain": "Sensory Augmentation",
+      "description": "Ultra-thin transparent cornea contact lens projecting real-time LiDAR distance vectors and thermal heat gradients directly to the retina.",
+      "torque": 0,
+      "latency": 0.05,
+      "compatibility": 96,
+      "upvotes": 38,
+      "status": "Under Review",
+      "createdAt": "2026-10-07T11:46:53.454Z",
+      "bomEstimate": "$4,150 / Unit",
+      "thermalOutput": "1.2W Nominal",
+      "feasibility": "91% Clinical Testing"
+    },
+    {
+      "id": "c3",
+      "title": "Sub-Dermal Titanium Rib Protector",
+      "domain": "Structural Reinforcement",
+      "description": "Honeycomb titanium lattice interlaced between biological ribs to deflect ballistic and high-g acceleration shocks.",
+      "torque": 600,
+      "latency": 0.1,
+      "compatibility": 98,
+      "upvotes": 29,
+      "status": "Proposed",
+      "createdAt": "2026-10-09T11:46:53.454Z",
+      "bomEstimate": "$19,500 / Unit",
+      "thermalOutput": "0W Passive",
+      "feasibility": "94% Structural Compliance"
+    }
+  ],
+  "telemetryLogs": [
+    {
+      "timestamp": "2026-10-10T11:46:53.454Z",
+      "neuralSync": 99.4,
+      "coreTemp": 41.2,
+      "hydraulicPressure": 310,
+      "activeMode": "COMBAT_READINESS"
+    }
+  ]
+}
